@@ -11,14 +11,14 @@
 ## 安装
 
 ``` bash
-composer require pithyone/think-wechat
+composer require piccscy/think-wechat
 ```
 
 ## 配置
 
 1. 创建配置文件
 
-将 `vendor/pithyone/think-wechat/src/config.php` 拷贝至应用配置目录，然后重命名为 `wework.php`
+将 `vendor/piccscy/think-wechat/src/config.php` 拷贝至应用配置目录，然后重命名为 `wework.php`
 
 2. 在 `provider.php` 绑定类库
 
@@ -47,4 +47,4 @@ app('wework', ['test'], true)->get('token')->get();
 
 ## License
 
-[MIT](https://github.com/pithyone/think-wechat/blob/master/LICENSE)
+[MIT](https://github.com/piccscy/think-wechat/blob/master/LICENSE)
